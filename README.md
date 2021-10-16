@@ -17,6 +17,7 @@ Route: Livre
 ------------
 | Route             | Verbe  |
 | ----------------- | ------ |
+| /createOne.php    | POST   |
 | /deleteOne.php    | DELETE |
 | /read.php         | GET    |
 | /readOne.php?id=1 | GET    |
