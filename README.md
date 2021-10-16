@@ -11,8 +11,13 @@ Table: Livre
 | titre         | varchar(255)  |
 
 Api Rest
---------
-/read.php          GET
-/readOne.php?id=1  GET
-/updateOne.php     PUT
-/deleteOne.php     DELETE
+-------
+
+Route: Livre
+------------
+| Route             | Verbe  |
+| ----------------- | ------ |
+| /deleteOne.php    | DELETE |
+| /read.php         | GET    |
+| /readOne.php?id=1 | GET    |
+| /updateOne.php    | PUT    |
